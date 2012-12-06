@@ -1449,9 +1449,35 @@ msgstr "郵遞區號"
 msgid "City"
 msgstr "城市"
 
-#: settings.py 161
-msgid "Area"
-msgstr "區"
+#: settings.py 227
+#msgid "l"
+#msgstr "升"
+#: settings.py 228
+#msgid "m"
+#msgstr "公尺"
+#: settings.py 229
+#msgid "am"
+#msgstr "平方公尺"
+#: settings.py 230
+#msgid "cm"
+#msgstr "立方公尺"
+#: settings.py 231
+#msgid "lfm"
+#msgstr ""
+#: settings.py 231
+#msgid "Unit"
+#msgstr "單位"
+#: settings.py 232
+msgid "Package"
+msgstr "套"
+#: settings.py 233
+msgid "Piece"
+msgstr "件"
+#: settings.py 234
+#msgid "Quantity"
+#msgstr "數量"
+
+
 #: customer/models.py:77 order/models.py:53
 #: templates/manage/customer/customer_inline.html:128
 #: templates/manage/order/order.html:34
