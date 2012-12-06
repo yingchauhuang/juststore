@@ -23,11 +23,11 @@ msgstr "不含稅"
 
 #: other_translations.py:4
 msgid "Price includes tax"
-msgstr "凈價"
+msgstr "含稅價"
 
 #: other_translations.py:5
 msgid "Street"
-msgstr "街區"
+msgstr "住址"
 
 #: other_translations.py:6
 msgid "Left"
@@ -43,7 +43,7 @@ msgstr "平均分"
 
 #: other_translations.py:9
 msgid "Zip Code"
-msgstr "郵編"
+msgstr "郵遞區號"
 
 #: cart/models.py:48 criteria/models/criteria.py:597 order/models.py:48
 #: templates/manage/cart/carts_inline.html:16
@@ -172,7 +172,7 @@ msgstr "名稱"
 #: templates/manage/product/products_inline.html:20
 #: templates/manage/product/variants.html:104
 msgid "Slug"
-msgstr "URL中唯壹名稱"
+msgstr "URL中唯一名稱"
 
 #: catalog/models.py:162 catalog/models.py:636 catalog/models.py:2063
 #: core/models.py:80
@@ -239,11 +239,11 @@ msgstr "順序"
 
 #: catalog/models.py:173 page/models.py:19
 msgid "Exclude from navigation"
-msgstr "不出現在導航菜單"
+msgstr "不出現在導覽選單"
 
 #: catalog/models.py:175 catalog/models.py:614 core/models.py:161
 msgid "Static block"
-msgstr "靜態板塊"
+msgstr "靜態區塊"
 
 #: catalog/models.py:176
 msgid "Category template"
@@ -289,7 +289,7 @@ msgstr "商品名稱"
 
 #: catalog/models.py:570
 msgid "The unique last part of the Product's URL."
-msgstr "商品唯壹的URL名稱"
+msgstr "商品唯一的URL名稱"
 
 #: catalog/models.py:571 discounts/models.py:45
 #: templates/manage/category/products_inline.html:50
@@ -312,7 +312,7 @@ msgstr "貨號"
 
 #: catalog/models.py:571
 msgid "Your unique article number of the product."
-msgstr "您的商品統壹編號"
+msgstr "您的商品統一編號"
 
 #: catalog/models.py:572 catalog/models.py:576 catalog/models.py:1880
 #: catalog/models.py:2025 criteria/models/criteria.py:52 order/models.py:56
@@ -547,7 +547,7 @@ msgstr "使用模板商品簡述"
 
 #: catalog/models.py:640
 msgid "Active static bock"
-msgstr "使用模板商品靜態板塊"
+msgstr "使用模板商品靜態區塊"
 
 #: catalog/models.py:641
 msgid "Active description"
@@ -660,7 +660,7 @@ msgstr "個體屬性"
 
 #: catalog/models.py:1876
 msgid "Filterable"
-msgstr "過濾導航"
+msgstr "過濾導覽"
 
 #: catalog/models.py:1877
 msgid "Display no results"
@@ -1120,7 +1120,7 @@ msgstr "使用國際貨幣代碼"
 
 #: core/models.py:181
 msgid "Checkout type"
-msgstr "結算方式"
+msgstr "結帳方式"
 
 #: core/models.py:182
 msgid "Confirm TOC"
@@ -1443,12 +1443,15 @@ msgstr "姓"
 
 #: customer/models.py:75
 msgid "Zip code"
-msgstr "郵編"
+msgstr "郵遞區號"
 
 #: customer/models.py:76
 msgid "City"
 msgstr "城市"
 
+#: settings.py 161
+msgid "Area"
+msgstr "區"
 #: customer/models.py:77 order/models.py:53
 #: templates/manage/customer/customer_inline.html:128
 #: templates/manage/order/order.html:34
@@ -1458,7 +1461,7 @@ msgstr "城市"
 #: templates/manage/order/orders_filters_inline.html:12
 #: templates/manage/order/orders_inline.html:15
 msgid "State"
-msgstr ""
+msgstr "省"
 
 #: customer/models.py:79 templates/manage/order/order_inline.html:43
 msgid "Phone"
@@ -1565,7 +1568,7 @@ msgstr "有新評論"
 
 #: manage/actions/views.py:96
 msgid "The action has been saved."
-msgstr "菜單項保存。"
+msgstr "選單項保存。"
 
 #: manage/actions/views.py:98 manage/categories/category.py:129
 #: manage/categories/seo.py:42 manage/categories/view.py:46
@@ -1577,15 +1580,15 @@ msgstr "請您修改指出的錯誤。"
 
 #: manage/actions/views.py:125
 msgid "Action has been added."
-msgstr "菜單項已被添加。"
+msgstr "選單項已被添加。"
 
 #: manage/actions/views.py:147
 msgid "Action has been deleted."
-msgstr "菜單項已被刪除。"
+msgstr "選單項已被刪除。"
 
 #: manage/actions/views.py:167
 msgid "The actions have been sorted."
-msgstr "菜單項已經做了排序。"
+msgstr "選單項已經做了排序。"
 
 #: manage/categories/category.py:83
 #, python-format
@@ -1937,7 +1940,7 @@ msgstr "送貨方式已被排序。"
 
 #: manage/static_blocks/views.py:50
 msgid "Static block has been saved."
-msgstr "靜態板塊已被保存。"
+msgstr "靜態區塊已被保存。"
 
 #: manage/static_blocks/views.py:90
 msgid "Files has been deleted."
@@ -1953,15 +1956,15 @@ msgstr "文件已被添加。"
 
 #: manage/static_blocks/views.py:184
 msgid "Static block has been added."
-msgstr "靜態板塊已被添加。"
+msgstr "靜態區塊已被添加。"
 
 #: manage/static_blocks/views.py:224
 msgid "The static blocks have been sorted."
-msgstr "靜態板塊已被排序。"
+msgstr "靜態區塊已被排序。"
 
 #: manage/static_blocks/views.py:246
 msgid "Static block has been deleted."
-msgstr "靜態板塊已被刪除。"
+msgstr "靜態區塊已被刪除。"
 
 #: manage/views/carts.py:242
 msgid "Cart filters has been set."
@@ -2141,23 +2144,23 @@ msgstr "限制"
 
 #: manage/voucher/views.py:198
 msgid "Vouchers have been created."
-msgstr "優惠卷已被生成。"
+msgstr "優惠券已被生成。"
 
 #: manage/voucher/views.py:220
 msgid "Vouchers have been deleted."
-msgstr "優惠卷已被刪除。"
+msgstr "優惠券已被刪除。"
 
 #: manage/voucher/views.py:260
 msgid "Voucher data has been saved."
-msgstr "優惠卷已被保存。"
+msgstr "優惠券已被保存。"
 
 #: manage/voucher/views.py:276
 msgid "Voucher group and assigned vouchers have been deleted."
-msgstr "優惠卷組及所屬優惠卷已被刪除。"
+msgstr "優惠券組及所屬優惠券已被刪除。"
 
 #: manage/voucher/views.py:295
 msgid "Voucher options has been saved."
-msgstr "優惠卷選項已被保存。"
+msgstr "優惠券選項已被保存。"
 
 #: marketing/models.py:27
 msgid "sales"
@@ -2289,15 +2292,15 @@ msgstr "銀行代碼"
 
 #: order/models.py:98
 msgid "Voucher number"
-msgstr "優惠卷號"
+msgstr "優惠券號"
 
 #: order/models.py:99
 msgid "Voucher value"
-msgstr "優惠卷金額"
+msgstr "優惠券金額"
 
 #: order/models.py:100
 msgid "Voucher tax"
-msgstr "優惠卷稅"
+msgstr "優惠券稅"
 
 #: order/models.py:102 templates/manage/customer/customer_inline.html:134
 #: templates/manage/order/orders_inline.html:21
@@ -2487,7 +2490,7 @@ msgstr "商城"
 #: templates/manage/manage_base.html:72 templates/manage/actions/action.html:9
 #: templates/manage/actions/no_actions.html:10
 msgid "Actions"
-msgstr "菜單"
+msgstr "選單"
 
 #: templates/manage/manage_base.html:73
 msgid "Delivery Times"
@@ -2555,7 +2558,7 @@ msgstr "頁"
 #: templates/manage/manage_base.html:101
 #: templates/manage/static_block/static_block.html:7
 msgid "Static blocks"
-msgstr "靜態板塊"
+msgstr "靜態區塊"
 
 #: templates/manage/manage_base.html:104 templates/manage/manage_base.html:107
 #: templates/manage/customer/customers.html:16
@@ -2595,7 +2598,7 @@ msgstr "特色"
 #: templates/manage/voucher/voucher_group.html:27
 #: templates/manage/voucher/vouchers.html:3
 msgid "Vouchers"
-msgstr "優惠卷"
+msgstr "優惠券"
 
 #: templates/manage/manage_base.html:117
 #: templates/manage/discounts/discount.html:9
@@ -2667,15 +2670,15 @@ msgstr "熱銷商品重新索引"
 #: templates/manage/actions/action.html:20
 #: templates/manage/actions/add_action.html:11
 msgid "Add action"
-msgstr "添加菜單項"
+msgstr "添加選單項"
 
 #: templates/manage/actions/action.html:23
 msgid "Do you really want to delete this action?"
-msgstr "您確認要刪除該菜單項嗎？"
+msgstr "您確認要刪除該選單項嗎？"
 
 #: templates/manage/actions/action.html:24
 msgid "Delete action"
-msgstr "刪除菜單項"
+msgstr "刪除選單項"
 
 #: templates/manage/actions/action.html:28
 msgid "View Shop"
@@ -2683,7 +2686,7 @@ msgstr "商城效果"
 
 #: templates/manage/actions/action.html:34
 msgid "Action"
-msgstr "菜單"
+msgstr "選單"
 
 #: templates/manage/actions/add_action.html:14
 #: templates/manage/actions/data_tab.html:2
@@ -2759,11 +2762,11 @@ msgstr "保存"
 
 #: templates/manage/actions/no_actions.html:12
 msgid "There are no actions defined yet."
-msgstr "尚未定義菜單"
+msgstr "尚未定義選單"
 
 #: templates/manage/actions/no_actions.html:18
 msgid "Add Action"
-msgstr "添加菜單"
+msgstr "添加選單"
 
 #: templates/manage/cart/cart.html:6
 msgid "Manage Cart"
@@ -3652,7 +3655,7 @@ msgstr "含稅"
 
 #: templates/manage/order/order_inline.html:242
 msgid "Voucher"
-msgstr "優惠卷"
+msgstr "優惠券"
 
 #: templates/manage/order/order_inline.html:259
 msgid "Shipping"
@@ -4409,7 +4412,7 @@ msgstr ""
 
 #: templates/manage/shop/data_tab.html:116
 msgid "Checkout"
-msgstr "結算"
+msgstr "結帳"
 
 #: templates/manage/shop/data_tab.html:143
 msgid "Content"
@@ -4440,7 +4443,7 @@ msgstr "保存"
 #: templates/manage/static_block/no_static_blocks.html:20
 #: templates/manage/static_block/static_block.html:31
 msgid "Add Static Block"
-msgstr "添加靜態板塊"
+msgstr "添加靜態區塊"
 
 #: templates/manage/static_block/add_static_block.html:22
 msgid "Save static block"
@@ -4456,30 +4459,30 @@ msgstr "添加文件"
 
 #: templates/manage/static_block/no_static_blocks.html:11
 msgid "Static Blocks"
-msgstr "靜態板塊"
+msgstr "靜態區塊"
 
 #: templates/manage/static_block/no_static_blocks.html:14
 msgid "There are no static blocks yet."
-msgstr "尚未定義靜態板塊"
+msgstr "尚未定義靜態區塊"
 
 #: templates/manage/static_block/static_block.html:33
 msgid "Do you really want to delete this static block?"
-msgstr "您確認要刪除靜態板塊嗎？"
+msgstr "您確認要刪除靜態區塊嗎？"
 
 #: templates/manage/static_block/static_block.html:34
 msgid "Delete Static Block"
-msgstr "刪除靜態板塊"
+msgstr "刪除靜態區塊"
 
 #: templates/manage/static_block/static_block.html:36
 msgid "View Static Block"
-msgstr "靜態板塊效果"
+msgstr "靜態區塊效果"
 
 #: templates/manage/voucher/add_voucher_group.html:11
 #: templates/manage/voucher/add_voucher_group.html:15
 #: templates/manage/voucher/add_voucher_group.html:22
 #: templates/manage/voucher/voucher_group.html:17
 msgid "Add voucher group"
-msgstr "添加優惠卷組"
+msgstr "添加優惠券組"
 
 #: templates/manage/voucher/data.html:2
 msgid "Core data"
@@ -4491,11 +4494,11 @@ msgstr "保存"
 
 #: templates/manage/voucher/no_vouchers.html:14
 msgid "There are no vouchers yet."
-msgstr "該組暫無優惠卷"
+msgstr "該組暫無優惠券"
 
 #: templates/manage/voucher/no_vouchers.html:20
 msgid "Add Voucher Group"
-msgstr "添加優惠卷組"
+msgstr "添加優惠券組"
 
 #: templates/manage/voucher/options.html:3
 #: templates/manage/voucher/voucher_group.html:28
@@ -4508,20 +4511,20 @@ msgstr "保存"
 
 #: templates/manage/voucher/voucher_group.html:7
 msgid "Voucher groups"
-msgstr "優惠卷組"
+msgstr "優惠券組"
 
 #: templates/manage/voucher/voucher_group.html:20
 msgid "Do you really want to delete this voucher group?"
-msgstr "您確認要刪除該優惠卷組嗎？"
+msgstr "您確認要刪除該優惠券組嗎？"
 
 #: templates/manage/voucher/voucher_group.html:21
 msgid "Delete voucher group"
-msgstr "刪除優惠卷組"
+msgstr "刪除優惠券組"
 
 #: templates/manage/voucher/vouchers.html:9
 #: templates/manage/voucher/vouchers.html:18
 msgid "Add vouchers"
-msgstr "添加優惠卷"
+msgstr "添加優惠券"
 
 #: templates/manage/voucher/vouchers_inline.html:91
 msgid "Used"
@@ -4537,37 +4540,37 @@ msgstr ""
 
 #: templates/manage/voucher/vouchers_inline.html:164
 msgid "Delete vouchers"
-msgstr "刪除優惠卷"
+msgstr "刪除優惠券"
 
 #: templates/manage/voucher/vouchers_inline.html:167
 msgid "There are no vouchers for this group yet."
-msgstr "該組暫無優惠卷"
+msgstr "該組暫無優惠券"
 
 #: voucher/settings.py:12
 msgid "The voucher is valid."
-msgstr "優惠卷有效。"
+msgstr "優惠券有效。"
 
 #: voucher/settings.py:13
 msgid "The voucher is not active."
-msgstr "優惠卷無效。"
+msgstr "優惠券無效。"
 
 #: voucher/settings.py:14
 msgid "The voucher has been already used."
-msgstr "優惠卷已被使用過。"
+msgstr "優惠券已被使用過。"
 
 #: voucher/settings.py:15
 msgid "The voucher is not active yet."
-msgstr "優惠卷尚未啟用。"
+msgstr "優惠券尚未啟用。"
 
 #: voucher/settings.py:16
 msgid "The voucher is not active any more."
-msgstr "優惠卷已經過期失效。"
+msgstr "優惠券已經過期失效。"
 
 #: voucher/settings.py:17
 msgid "The voucher is not valid for this cart price."
-msgstr "優惠卷不適用於當前購物金額。"
+msgstr "優惠券不適用於當前購物金額。"
 
 #: voucher/settings.py:18
 msgid "The voucher doesn't exist."
-msgstr "優惠卷不存在。"
+msgstr "優惠券不存在。"
 

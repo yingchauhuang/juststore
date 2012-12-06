@@ -41,7 +41,7 @@ from lfs.voucher.settings import MESSAGES
 
 # other imports
 from postal.library import form_factory
-
+#from django.contrib.localflavor.cn import 
 
 def login(request, template_name="lfs/checkout/login.html"):
     """Displays a form to login or register/login the user within the check out
